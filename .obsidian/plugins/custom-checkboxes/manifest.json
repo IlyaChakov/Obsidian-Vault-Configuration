@@ -1,0 +1,10 @@
+{
+	"id": "custom-checkboxes",
+	"name": "Custom Checkboxes",
+	"version": "1.0.11",
+	"minAppVersion": "0.15.0",
+	"description": "Extended task list states with custom checkbox styles (., ~, >) based on your Custom Checkboxes.css.",
+	"author": "Based on joeriddles; customized",
+	"authorUrl": "https://github.com/joeriddles",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,195 @@
+{
+  "workspaces": {
+    "Дипломная Работа": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "d74b485a46efaaad",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e99201bdbec9ef3a",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "258339d0207ea63c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c653832061e9ff3c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Университет/Дипломная Работа/Дипломная Работа.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "3906193822040fc8",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "6fe0b48332d38b60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7cb3234667408e55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3024e4f713d36d51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c445f52a8aac8e60",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "8378a7d4328af116",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "36fa88d335614aaa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 0
+      },
+      "right": {
+        "id": "068cf246f6bf612b",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "45ee1e996fd94e02",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Университет/Дипломная Работа/Дипломная Работа.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c55f55660b800a22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Университет/Дипломная Работа/Дипломная Работа.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4e4c326b68a5bb3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Университет/Дипломная Работа/Дипломная Работа.md"
+              }
+            }
+          },
+          {
+            "id": "8267208c998739a6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Меню быстрого перехода": true,
+          "homepage:Open homepage": false,
+          "workspaces:Пространства": false,
+          "daily-notes:Сегодняшняя заметка": false,
+          "graph:Граф": false,
+          "canvas:Создать новый холст": false,
+          "templates:Вставить шаблон": true,
+          "command-palette:Открыть палитру команд": true,
+          "markdown-importer:Импорт Markdown-файлов": true,
+          "publish:Публикация изменений": true,
+          "obsidian-kanban:Создать новую доску": false,
+          "templater-obsidian:Templater": true,
+          "pdf-plus:PDF++: Toggle auto-copy": true,
+          "pdf-plus:PDF++: Toggle auto-focus": true,
+          "pdf-plus:PDF++: Toggle auto-paste": true,
+          "callout-manager:Insert Callout": true,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "card-board:CardBoard": false
+        }
+      },
+      "active": "c653832061e9ff3c",
+      "mtime": "2024-10-18T07:01:42+03:00"
+    }
+  },
+  "active": "Дипломная Работа"
+}

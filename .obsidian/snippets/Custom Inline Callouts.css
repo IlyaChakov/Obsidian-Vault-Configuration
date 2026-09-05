@@ -1,0 +1,20 @@
+body {
+    --inline-callout-font-size: .85em;
+    --inline-callout-font-weight: 400;
+    --inline-callout-border-radius: 15px;
+    --inline-callout-bg-transparency: .1;
+    --inline-callout-margin: 1px;
+    --inline-callout-padding-top: 0px;
+    --inline-callout-padding-right: 0px;
+    --inline-callout-padding-bottom: 0px;
+    --inline-callout-padding-left: 0px;
+    --inline-callout-icon-size: .80em;
+    --inline-callout-icon-margin-top: 3px;
+    --inline-callout-icon-margin-right: 2px;
+    --inline-callout-icon-margin-bottom: 0px;
+    --inline-callout-icon-margin-left: 5px;
+    --inline-callout-label-margin-top: 2px;
+    --inline-callout-label-margin-right: 5px;
+    --inline-callout-label-margin-bottom: 0px;
+    --inline-callout-label-margin-left: 2px;
+}

@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1738816847247,
+      "path": "Авторы/Богомолов В. А..md",
+      "title": "Богомолов"
+    },
+    {
+      "type": "file",
+      "ctime": 1738816939292,
+      "path": "Авторы/Бокарев Ю. П..md",
+      "title": "Бокарев"
+    },
+    {
+      "type": "group",
+      "ctime": 1756398587978,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1762714630799,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1762715554996,
+              "items": [],
+              "title": "Приоритет"
+            },
+            {
+              "type": "group",
+              "ctime": 1762716014648,
+              "items": [],
+              "title": "Темы"
+            }
+          ],
+          "title": "Якоря"
+        },
+        {
+          "type": "group",
+          "ctime": 1762714630799,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1762714657618,
+              "items": [],
+              "title": "Ежедневные заметки"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714657618,
+              "items": [],
+              "title": "Заметки"
+            }
+          ],
+          "title": "Входящие"
+        },
+        {
+          "type": "group",
+          "ctime": 1762714630799,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1762714664660,
+              "items": [],
+              "title": "Конспекты"
+            },
+            {
+              "type": "group",
+              "ctime": 1777789433131,
+              "items": [],
+              "title": "Материалы"
+            }
+          ],
+          "title": "Ресурсы"
+        },
+        {
+          "type": "group",
+          "ctime": 1762714943199,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1788095548574,
+              "items": [],
+              "title": "Записи"
+            },
+            {
+              "type": "group",
+              "ctime": 1788095553035,
+              "items": [],
+              "title": "Наброски"
+            },
+            {
+              "type": "group",
+              "ctime": 1788097016869,
+              "items": [],
+              "title": "Приложения"
+            }
+          ],
+          "title": "Концепты"
+        },
+        {
+          "type": "group",
+          "ctime": 1762714630799,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1762714647261,
+              "items": [],
+              "title": "Базы"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714647261,
+              "items": [],
+              "title": "Запросы"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714647261,
+              "items": [],
+              "title": "Рисунки"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714647262,
+              "items": [],
+              "title": "Файлы"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714647262,
+              "items": [],
+              "title": "Холсты"
+            }
+          ],
+          "title": "Вложения"
+        },
+        {
+          "type": "group",
+          "ctime": 1762792474359,
+          "items": [],
+          "title": "Архив"
+        },
+        {
+          "type": "group",
+          "ctime": 1762714630799,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1762714680277,
+              "items": [],
+              "title": "Шаблоны"
+            },
+            {
+              "type": "group",
+              "ctime": 1762714675328,
+              "items": [],
+              "title": "Сниппеты"
+            }
+          ],
+          "title": "Функционал"
+        }
+      ],
+      "title": "sortspec"
+    },
+    {
+      "type": "group",
+      "ctime": 1777791231260,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1777791277423,
+          "path": "Входящие/Заметки/Список тем для дальнейшего развития.md"
+        }
+      ],
+      "title": "Заметки"
+    }
+  ]
+}
