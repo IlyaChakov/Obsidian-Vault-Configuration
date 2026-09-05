@@ -1,0 +1,4 @@
+/* Minimal styling hooks for Custom Graphs */
+.cg-wrap { width: 100%; }
+.cg-svg { display: block; }
+

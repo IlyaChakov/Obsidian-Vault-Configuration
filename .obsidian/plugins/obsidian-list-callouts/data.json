@@ -1,0 +1,96 @@
+[
+  {
+    "color": "255, 214, 0",
+    "char": "&"
+  },
+  {
+    "color": "255, 145, 0",
+    "char": "?"
+  },
+  {
+    "color": "255, 23, 68",
+    "char": "!"
+  },
+  {
+    "color": "124, 77, 255",
+    "char": "~"
+  },
+  {
+    "color": "0, 184, 212",
+    "char": "@"
+  },
+  {
+    "color": "0, 200, 83",
+    "char": "$"
+  },
+  {
+    "color": "158, 158, 158",
+    "char": "%"
+  },
+  {
+    "char": "-hd",
+    "color": "255, 255, 255",
+    "icon": "lucide-list",
+    "custom": true
+  },
+  {
+    "char": "-cmp",
+    "color": "220, 173, 118",
+    "icon": "lucide-text",
+    "custom": true
+  },
+  {
+    "char": "-ths",
+    "color": "51, 153, 153",
+    "icon": "lucide-text",
+    "custom": true
+  },
+  {
+    "char": "-elm",
+    "color": "128, 0, 0",
+    "icon": "lucide-text",
+    "custom": true
+  },
+  {
+    "char": "-obj",
+    "color": "100, 100, 100",
+    "icon": "lucide-text",
+    "custom": true
+  },
+  {
+    "char": "-snt",
+    "color": "61, 23, 199",
+    "icon": "lucide-list",
+    "custom": true
+  },
+  {
+    "char": "-thr",
+    "color": "220, 173, 118",
+    "icon": "lucide-check-square",
+    "custom": true
+  },
+  {
+    "char": "-prc",
+    "color": "51, 153, 153",
+    "icon": "lucide-check-square",
+    "custom": true
+  },
+  {
+    "char": "-inf",
+    "color": "128, 0, 0",
+    "icon": "lucide-check-square",
+    "custom": true
+  },
+  {
+    "char": "-fnc",
+    "color": "100, 100, 100",
+    "icon": "lucide-check-square",
+    "custom": true
+  },
+  {
+    "char": "-pen",
+    "color": "255, 255, 255",
+    "icon": "lucide-text",
+    "custom": true
+  }
+]

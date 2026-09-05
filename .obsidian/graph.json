@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "-path:Архив -path:Вложения -path:\"Входящие/Ежедневные заметки\" -path:Функционал  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Якоря",
+      "color": {
+        "a": 1,
+        "rgb": 4003783
+      }
+    },
+    {
+      "query": "path:Входящие",
+      "color": {
+        "a": 1,
+        "rgb": 3381657
+      }
+    },
+    {
+      "query": "path:Ресурсы",
+      "color": {
+        "a": 1,
+        "rgb": 8388608
+      }
+    },
+    {
+      "query": "path:Концепты",
+      "color": {
+        "a": 1,
+        "rgb": 14462326
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.13359375,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 1,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.20156564408743266,
+  "close": true
+}

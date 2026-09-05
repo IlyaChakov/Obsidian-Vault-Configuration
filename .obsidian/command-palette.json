@@ -1,0 +1,20 @@
+{
+  "pinned": [
+    "workspace:export-pdf",
+    "workspace:copy-url",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-strikethrough",
+    "editor:insert-link",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "theme:use-light",
+    "theme:use-dark",
+    "insert-current-date",
+    "insert-current-time",
+    "editor:toggle-highlight",
+    "obsidian-copy-block-link:copy-embed-to-block"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pop_state": {
+    "popon": false,
+    "hot": false,
+    "incr": 0
+  },
+  "plot": false,
+  "cmd_list": [
+    {
+      "index": 0,
+      "name": "Command 0",
+      "tmp_name": "Command 0",
+      "bindings": [
+        0
+      ],
+      "isPopOver": true
+    }
+  ],
+  "setup_list": [
+    {
+      "index": 0,
+      "all_states": "- [ ] \n- [>] \n- [.] \n- [~] \n- [?] \n- [x] ",
+      "states": [
+        "- [ ] ",
+        "- [>] ",
+        "- [.] ",
+        "- [~] ",
+        "- [?] ",
+        "- [x] "
+      ],
+      "sorteds": [
+        "- [ ] ",
+        "- [>] ",
+        "- [.] ",
+        "- [~] ",
+        "- [?] ",
+        "- [x] "
+      ],
+      "states_dict": {}
+    }
+  ]
+}

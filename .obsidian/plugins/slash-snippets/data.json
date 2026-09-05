@@ -1,0 +1,6 @@
+{
+  "slashTrigger": "/",
+  "snippetPath": "Функционал/Сниппеты",
+  "ignoreProperties": true,
+  "templaterSupport": true
+}

@@ -1,0 +1,369 @@
+{
+  "main": {
+    "id": "ca247535c6c3d486",
+    "type": "split",
+    "children": [
+      {
+        "id": "4adbf023e45276f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "220233b1055d4614",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Функционал/Параметры Графа.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Параметры Графа"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09f5ef61cdaab8eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4feaaa90fa1e5fee",
+        "type": "tabs",
+        "dimension": 27.232796486090777,
+        "children": [
+          {
+            "id": "d9f753077c23552e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0f5a2e3011bc2067",
+        "type": "tabs",
+        "dimension": 72.76720351390922,
+        "children": [
+          {
+            "id": "3c8040820bcfc372",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "4d70713db4f2fa3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "92d0572d4be9870a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          },
+          {
+            "id": "b366ee391320fffd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5
+  },
+  "right": {
+    "id": "4297593edb2e6d58",
+    "type": "split",
+    "children": [
+      {
+        "id": "91913f6dccf0abbe",
+        "type": "tabs",
+        "dimension": 26.47267565649397,
+        "children": [
+          {
+            "id": "911ec953493f5c1e",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:Якоря",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4003783
+                      }
+                    },
+                    {
+                      "query": "path:Входящие",
+                      "color": {
+                        "a": 1,
+                        "rgb": 3381657
+                      }
+                    },
+                    {
+                      "query": "path:Ресурсы ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 8388608
+                      }
+                    },
+                    {
+                      "query": "path:Концепты ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14462326
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0.1,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 1,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.4474739592234943,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Локальный граф"
+            }
+          }
+        ]
+      },
+      {
+        "id": "633fddf78fb454aa",
+        "type": "tabs",
+        "dimension": 73.52732434350604,
+        "children": [
+          {
+            "id": "691145d66319a300",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "159449c74155fb78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Входящие/Ежедневные заметки/2026-08-30.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "0e281d6541feca13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Входящие/Ежедневные заметки/2026-08-30.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "bc0e0482a4a0f5f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Якоря/Темы/Подготовка к экзамену по экономике.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          },
+          {
+            "id": "42be7721b5a2889e",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
+          },
+          {
+            "id": "9e785d950e9192f6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": true,
+      "graph:Граф": false,
+      "omnisearch:Omnisearch": false,
+      "bases:Создать новую базу": false,
+      "daily-notes:Сегодняшняя заметка": true,
+      "canvas:Создать новый холст": false,
+      "obsidian-kanban:Создать новую доску": true,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "workspaces:Пространства": false,
+      "templates:Вставить шаблон": true,
+      "command-palette:Открыть палитру команд": true,
+      "markdown-importer:Импорт Markdown-файлов": true,
+      "publish:Публикация изменений": true,
+      "templater-obsidian:Templater": true,
+      "custom-sort:Toggle custom sorting": false,
+      "iconic:Открыть свод правил": true
+    }
+  },
+  "active": "911ec953493f5c1e",
+  "lastOpenFiles": [
+    "Функционал/Параметры Графа.md",
+    "Функционал/Параметры общего Графа.png",
+    "Функционал/Параметры локального Графа.png",
+    "Входящие/Ежедневные заметки/2026-09-04.md",
+    "Концепты/Наброски/Капиталистическая экономика в контексте категорий исторического материализма.md",
+    "Концепты/Записи/Азиатский способ производства.md",
+    "Ресурсы/Конспекты/Закон КНР \"О компаниях\".md",
+    "Входящие/Заметки/Идеология современной России.md",
+    "Входящие/Ежедневные заметки/2026-06-02.md",
+    "Входящие/Ежедневные заметки/2026-08-30.md",
+    "Якоря/Темы/Подготовка к экзамену по международным отношениям.md",
+    "Концепты/Приложения/Классовая структура капиталистического общества. Таблица.md",
+    "Функционал/Сниппеты/коллаут золотой.md",
+    "Функционал/Сниппеты/коллаут красный.md",
+    "Функционал/Сниппеты/коллаут синий.md",
+    "Функционал/Сниппеты/коллаут стандартный.md",
+    "Функционал/Сниппеты/коллаут фиолетовый.md",
+    "Концепты/Наброски/Несостоятельность концепции общества потребления.md",
+    "Функционал/Сниппеты/приложение.md",
+    "Функционал/Сниппеты/запись.md",
+    "Функционал/Сниппеты/конспект.md",
+    "Функционал/Сниппеты/материал.md",
+    "Функционал/Сниппеты/флажок.md",
+    "Функционал/Сниппеты/тема.md",
+    "Функционал/Сниппеты/набросок.md",
+    "Функционал/Сниппеты/заметка.md",
+    "Функционал/Сниппеты/элемент c.md",
+    "Концепты/Приложения",
+    "Вложения/Базы/Без названия.base",
+    "Концепты/Наброски",
+    "Концепты/Записи",
+    "Вложения/Файлы/Английский язык. Сгенерированный вариант 2.mp3",
+    "Вложения/Файлы/Английский Язык. Сгенерированный вариант 1.mp3",
+    "Вложения/Доски",
+    "Публикации",
+    "Заметки",
+    "Ресурсы/Наброски",
+    "Без названия.canvas",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.53.39.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.53.31.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.53.23.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.53.13.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.53.02.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.52.52.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.52.42.jpeg",
+    "Вложения/Файлы/Переходное правительство Сирии/Снимок экрана 2026-01-24 в 16.56.01.jpeg",
+    "Вложения/Холсты/Критерии анализа теорий цикла.canvas",
+    "Вложения/Холсты/Теории цикла в экономике.canvas",
+    "Вложения/Холсты/Математика цикла.canvas",
+    "Вложения/Холсты/Марксистские теории цикла.canvas",
+    "Стратегия/Без названия.canvas",
+    "ВКР 2.canvas",
+    "ВКР.canvas"
+  ]
+}

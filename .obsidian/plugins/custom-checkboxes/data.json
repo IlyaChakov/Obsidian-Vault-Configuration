@@ -1,0 +1,10 @@
+{
+  "todoFilename": "",
+  "excludeFilePattern": "<!-- exclude TODO -->",
+  "excludeFolderFilename": ".exclude_todos",
+  "useFullFilepath": false,
+  "includeNotStarted": false,
+  "includeInProgress": false,
+  "includeWontDo": false,
+  "includeDone": false
+}

@@ -1,0 +1,140 @@
+/* ========== Настройка прозрачного оформления для embed заметок ========== */
+
+/* Убираем полоску/рамки/фон/отступы у всех внутренних embed'ов (кроме картинок) */
+.internal-embed:not(.image-embed) {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Коробка markdown-embed — тоже плоская */
+.internal-embed:not(.image-embed) .markdown-embed {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Внутренние обёртки предпросмотра */
+.internal-embed:not(.image-embed) .markdown-embed-content,
+.internal-embed:not(.image-embed) .markdown-embed-content > .markdown-preview-view,
+.internal-embed:not(.image-embed) .markdown-embed-content > .markdown-preview-view .markdown-preview-sizer {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Служебные псевдо-элементы — выключить */
+.internal-embed:not(.image-embed)::before,
+.internal-embed:not(.image-embed) .markdown-embed::before,
+.internal-embed:not(.image-embed) .markdown-embed-content::before,
+.internal-embed:not(.image-embed) .markdown-embed-content > .markdown-preview-view::before {
+  content: none !important;
+}
+
+/* Live Preview (CodeMirror) обёртка */
+.cm-embed-block .internal-embed:not(.image-embed) {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Подсветка при наведении */
+
+/* Плавные переходы */
+.internal-embed:not(.image-embed),
+.internal-embed:not(.image-embed) .markdown-embed,
+.cm-embed-block .internal-embed:not(.image-embed) {
+  transition: background-color .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+
+/* Подсвечиваем и контейнер embed, и внутреннюю коробку — для надёжности в разных темах */
+.internal-embed:not(.image-embed):hover,
+.cm-embed-block:hover .internal-embed:not(.image-embed),
+.internal-embed:not(.image-embed):hover .markdown-embed,
+.cm-embed-block:hover .internal-embed:not(.image-embed) .markdown-embed {
+  background: var(--background-modifier-hover) !important;      /* стандартная «hover»-подложка темы */
+  box-shadow: inset 0 0 0 1px var(--background-modifier-border) !important; /* тонкая рамка без сдвига */
+  border-radius: var(--radius-s, 6px);
+}
+
+/* ========== Отключение заголовка заметки с alias "|notitle" ========== */
+
+.internal-embed:not(.image-embed):not([src*="#"])[alt="notitle"] .markdown-embed-title,
+.internal-embed:not(.image-embed):not([src*="#"])[data-embed-alt="notitle"] .markdown-embed-title,
+.internal-embed:not(.image-embed):not([src*="#"])[data-alt="notitle"] .markdown-embed-title {
+  display: none !important;
+}
+
+/* ========== Отключение подзаголовков заметки с alias "|blank" (отключает все заголовки) и "|blank-hN" (отключает заголовки заданного уровня N ========== */
+
+/* Показать строку-заголовок embed (если тема её скрывала) */
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-title {
+  display: block !important;
+  margin-bottom: 0.25em;
+}
+
+/* Базовый вариант: скрыть первый заголовок любого уровня */
+.internal-embed[src*="#"][alt="blank"] .markdown-embed-content
+  :is(h1,h2,h3,h4,h5,h6):first-of-type {
+  display: none !important;
+}
+
+/* Точечно: скрыть только указанный уровень */
+.internal-embed[src*="#"][alt="blank-h1"] .markdown-embed-content h1:first-of-type { display: none !important; }
+.internal-embed[src*="#"][alt="blank-h2"] .markdown-embed-content h2:first-of-type { display: none !important; }
+.internal-embed[src*="#"][alt="blank-h3"] .markdown-embed-content h3:first-of-type { display: none !important; }
+.internal-embed[src*="#"][alt="blank-h4"] .markdown-embed-content h4:first-of-type { display: none !important; }
+.internal-embed[src*="#"][alt="blank-h5"] .markdown-embed-content h5:first-of-type { display: none !important; }
+.internal-embed[src*="#"][alt="blank-h6"] .markdown-embed-content h6:first-of-type { display: none !important; }
+
+/* 1) Сам контейнер embed */
+.internal-embed[src*="#"][alt^="blank"] {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.internal-embed[src*="#"][alt^="blank"]::before { content: none !important; }
+
+/* 2) Коробка markdown-embed */
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed::before { content: none !important; }
+
+/* 3) Внутренние обёртки предпросмотра */
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-content,
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-content > .markdown-preview-view,
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-content > .markdown-preview-view .markdown-preview-sizer {
+  border: 0 !important;
+  border-left: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-content::before,
+.internal-embed[src*="#"][alt^="blank"] .markdown-embed-content > .markdown-preview-view::before {
+  content: none !important;
+}
+
+/* 4) Live Preview (CodeMirror) обёртка */
+.cm-embed-block .internal-embed[src*="#"][alt^="blank"] {
+  border: 0 !important;
+  box-shadow: none !important;
+}

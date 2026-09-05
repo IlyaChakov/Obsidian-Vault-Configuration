@@ -1,0 +1,9 @@
+{
+  "id": "kanban-auto-normalize",
+  "name": "Kanban Auto Normalize",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Автоматически ставит кастомные чекбоксы по колонкам Kanban при изменении файла.",
+  "author": "you",
+  "isDesktopOnly": false
+}
